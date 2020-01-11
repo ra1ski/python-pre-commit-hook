@@ -1,3 +1,5 @@
+Cleans code for you and then checks against [PEP8](https://www.python.org/dev/peps/pep-0008/) codeing conventions.
+
 # Required packages
 
 [Flake8](http://flake8.pycqa.org)
