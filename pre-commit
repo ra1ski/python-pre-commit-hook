@@ -1,0 +1,12 @@
+#!/bin/sh
+python_version="py36"
+max_line_length=120
+
+# all staged .py files
+staged_files=$(git status -s | grep -E '\.py$' | cut -c 4-)
+
+# let me clean for you first
+black -t "$python_version" -l "$max_line_length" "$staged_files"
+
+# check for PEP8 standarts
+flake8 --max-line-length "$max_line_length" "$staged_files"
