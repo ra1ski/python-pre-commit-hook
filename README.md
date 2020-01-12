@@ -1,4 +1,4 @@
-Cleans code for you and then checks against [PEP8](https://www.python.org/dev/peps/pep-0008/) codeing conventions.
+Cleans code for you and then checks against [PEP8](https://www.python.org/dev/peps/pep-0008/) coding conventions.
 
 # Required packages
 
